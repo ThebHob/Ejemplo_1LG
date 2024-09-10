@@ -1,0 +1,79 @@
+body{
+    font-family: cursive;
+    margin-top: 0%;
+}
+.contenedor{
+    grid-template-columns: 33.3% 33.3% 33.4%;
+    grid-template-rows: 270px 100px 1500px 50px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc enc'
+    'men men men'
+    'sec1 sec2 sec3'
+    'pie pie pie';
+}
+header{
+    grid-area: enc;
+    color: white;
+}
+main{
+    background-color: navy;
+    grid-area: men;
+    color: white;
+    align-items: center;
+}
+#sec1{
+    background-color: rgb(167, 0, 0);
+    grid-area: sec1;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+#sec2{
+    background-color: navy;
+    grid-area: sec2;
+    color: white;
+    align-items: center;
+    text-align: center;
+}#sec3{
+    background-color: rgb(167, 0, 0);
+    grid-area: sec3;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    background-color: rgb(0, 0, 35);
+    grid-area: pie;
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    height: 270px;
+}
+iframe{
+    width: 95%;
+    height: 300px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.infog{
+    width: 95%;
+    height: 95%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+li{
+    display: inline;
+}
+.caida{
+    width: 95%;
+    height: 250pxpx;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}

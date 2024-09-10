@@ -1,0 +1,46 @@
+.banner{
+    width: 100%;
+    height: 270px;
+}
+.contenedor{
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 270px 700px 50px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc'
+    'men cont'
+    'pie pie';
+}
+header{
+    grid-area: enc;
+    color: white;
+}
+main{
+    background-color: rgb(0, 25, 148);
+    grid-area: men;
+    color: white;
+    align-items: center;
+}
+nav{
+    background-color: navy;
+    grid-area: cont;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    background-color: rgb(0, 0, 35);
+    grid-area: pie;
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+iframe{
+    width: 95%;
+    height: 300px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
